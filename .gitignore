@@ -1,0 +1,22 @@
+# Dependency directories
+vendor/
+admin/vendor/
+
+# Environment & sensitive data
+.env
+admin/.env
+
+# Logs & runtime files
+error_log
+error_log.txt
+errors.log
+*.log
+
+# Uploads / generated content
+Uploads/
+admin/uploads/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+*.swp

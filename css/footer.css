@@ -1,0 +1,96 @@
+
+/* =============================
+   7. Footer
+============================= */
+footer {
+  background-color: #1d3557;
+  color: white;
+  padding: 60px 20px 40px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.text-green{
+  color:  #4caf50;
+}
+.footer-brand-icon {
+  width: 40px;
+  height: 40px;
+  background-color: #2563eb;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+}
+
+.footer-brand-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.footer-text {
+  color: #9ca3af;
+  margin-bottom: 16px;
+}
+
+.footer-socials a {
+  color: #9ca3af;
+  margin-right: 12px;
+  text-decoration: none;
+}
+
+.footer-socials a:hover {
+  color: orange;
+}
+
+.footer-column h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  border-bottom: 2px solid whitesmoke;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer-column li {
+  margin-bottom: 10px;
+}
+
+.footer-column a {
+  color: #9ca3af;
+  text-decoration: none;
+}
+
+.footer-column a:hover {
+  color: orange;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 40px;
+  color: #ffffff;
+  font-size: 14px;
+  border-top: 1px solid #d2d2d2;
+  padding-top: 20px;
+}
+
+.footer-heart {
+  color: #ef4444;
+}
